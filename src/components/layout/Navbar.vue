@@ -2,9 +2,9 @@
   <div class="navbar">
     <nav class="deep-purple darken-1">
       <div class="container">
-        <a href="" class="brand-logo left">LocationSharing</a>
+        <a href="" class="brand-logo left">LoationSharing</a>
         <ul class="right">
-          <li><a href="">Signup</a></li>
+          <li><router-link :to="{ name: 'Signup' }">Signup</router-link></li>
           <li><a href="">Login</a></li>
         </ul>
       </div>
